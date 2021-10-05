@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.input-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#input-form {
+    position: fixed;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: lightpink;
+}
+
+#read {
+    margin: 20px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.book-div {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px;
+    height: auto;
+}
+
+/* Открыть - спрятать форму для вписание элементов объекта книги */
+.show-form {
+    display: block;
+}
+
+.form-hidden {
+    display: none;
+}
